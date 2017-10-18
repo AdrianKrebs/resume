@@ -1,58 +1,91 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
+    first: 'Adrian',
     middle: '',
-    last: 'Doe',
+    last: 'Krebs',
   },
   about: 'Hi, my name is John Doe. I\'m just about the most boring type of person you could possibly imagine. I like collecting leaves from the tree in my back yard and documenting each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.',
-  position: 'Software Developer',
+  position: 'Software Engineer',
   birth: {
-    year: 1990,
-    location: 'New York'
+    year: 1991,
+    location: 'Bern'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: 'Schweizerische Mobiliar Versicherungsgesellschaft, Bern',
+      position: 'Software Engineer',
+      timeperiod: 'seit November 2015',
+      description: 'Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
+      company: 'Höhere Fachschule für Technik Mitteland, Biel',
+      position: 'Technischer Mitarbeiter/ Softwareentwickler',
+      timeperiod: 'Oktober 2014 - Oktober 2015',
       description: 'Fulfillment of extremely important tasks.'
     },
     {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
-    }
-  ],
-  education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+      company: 'Styner+Bienz FormTech AG',
+      position: 'Polymechaniker',
+      timeperiod: 'April  2012 - Oktober  2012',
+      description: ''
     },
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      company: 'Styner+Bienz FormTech AG',
+      position: 'Polymechaniker Lehrling',
+      timeperiod: '2007 - 2011',
+      description: ''
+    }
+
+  ],
+  education: [{
+      degree: 'Master of Advanced Studies in Information Technology',
+      timeperiod: '2017 – 2019',
+      description: 'CAS HTML5/Javascript, CAS JEE, Berner Fachhochschule BFH'
+    },
+    {
+      degree: 'dipl. Techniker HF',
+      timeperiod: '2012 - 2014',
+      description: 'Systemtechnik Vertiefungsrichtung Automation/ICT, Höhere Fachschule für Technik Mitteland, Biel'
+    }
+  ],
+  projects: [{
+    company: 'Testfirma',
+    position: 'Testfirma',
+    timeperiod: 'seit November 2015',
+    description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
+  }
+  ],
+  activities:[
+    {
+      title: 'Meetup',
+      description: ''
+    },
+    {
+      title: 'Hackathon',
+      description: ''
+    },
+    {
+      title: 'Zertifikat',
+      description: ''
     }
   ],
   // skill level goes 0 to 100
-  skills: [{
+  skills: [
+    {
+      name: 'Java/ Java EE',
+      level: '99'
+    },
+    {
+      name: 'JavaScript',
+      level: '97'
+    },
+    {
       name: 'HTML5',
       level: '99'
     },
     {
       name: 'CSS3',
       level: '95'
-    },
-    {
-      name: 'JavaScript',
-      level: '97'
     },
     {
       name: 'Node.js',
@@ -75,14 +108,25 @@ export const PERSON = {
       level: '99'
     }
   ],
+  languages: [
+    {
+      name: 'Deutsch',
+      level: 'Muttersprache'
+    },
+    {
+      name: 'Englisch',
+      level: 'Gute Kenntnisse'
+    }
+
+  ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'info@adriankrebs.ch',
+    phone: '079 308 25 46',
+    street: 'Freiburghaus 288',
+    city: '3176, Neuenegg',
+    website: 'adriankrebs.ch',
+    github: 'Adriankrebs'
   },
-  lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, nl, he, zh-tw
+  lang: 'de' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl
 };

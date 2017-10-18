@@ -3,9 +3,13 @@ const de = {
   headings: {
     contact: 'Kontakt',
     experience: 'Berufserfahrung',
-    education: 'Schulbildung',
-    skills: 'Qualifikationen',
-    about: 'Über mich' 
+    education: 'Aus- und Weiterbildung',
+    skills: 'Technologien',
+    about: 'Über mich',
+    languages: 'Sprachen',
+    personal: 'Persönliche Informationen',
+    projects: 'Projekt Erfahrungen',
+    activity: 'Community & Aktivitäten'
   }
 };
 export default de;

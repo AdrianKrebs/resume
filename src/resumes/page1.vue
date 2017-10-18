@@ -101,7 +101,7 @@
     <div class="section-headline">{{ lang.headings.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
       <div class="block-helper"></div>
-      <div class="headline">{{experience.position}} - {{experience.company}}</h3>
+      <div class="headline"><h3>{{experience.position}} - {{experience.company}}</h3>
         <div class="subheadline">{{experience.timeperiod}}</div>
         <p class="info">
           {{experience.description}}
@@ -111,7 +111,7 @@
     <div class="section-headline">{{ lang.headings.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <div class="block-helper"></div>
-      <div class="headline">{{education.degree}}</div>
+      <div class="headline"><h3>{{education.degree}}</h3></div>
       <p class="info">
         {{education.timeperiod}}, {{education.description}}
       </p>
@@ -126,7 +126,7 @@
 import Vue from 'vue';
 import { getVueOptions } from './resumes';
 
-let name = 'material-dark';
+let name = 'page1';
 export default Vue.component(name, getVueOptions(name));
 </script>
 
@@ -135,6 +135,7 @@ export default Vue.component(name, getVueOptions(name));
 .resume {
   font-family:'Roboto' !important;
   background:#cccccc;
+  font-size: 1.25rem;
 }
 a {
   cursor:pointer;
@@ -145,30 +146,30 @@ a {
   padding-right:40px;
   text-align:justify;
   font-family:Roboto;
+
 }
 .title {
+  font-family: Exo;
   right:25px;
-  padding-left:20px;
   padding-top:20px;
   bottom:25px;
+  margin-left: 20px;
   h2 {
-    text-transform:uppercase;
     display:block;
-    font-size:1.17em;
+    font-size:1.5em;
+    font-weight:bold;
     -webkit-margin-before:1em;
-    -webkit-margin-after:1em;
+    -webkit-margin-after: 0.5em;
     -webkit-margin-start:0;
     -webkit-margin-end:0;
     color:white;
+    margin-bottom: 1.5em;
     color:rgba(0,0,0,0.7);
     padding-top:0;
     margin-top:0;
-    letter-spacing:10px;
-    font-weight:400;
+    letter-spacing:5px;
   }
   div {
-    margin-top:-5px;
-    margin-top:0;
     margin:0;
     padding:0;
     line-height:15pt;
@@ -181,26 +182,18 @@ a {
     color:rgba(63,61,60,0.71);
     display:block;
     font-size:0.67em;
-    font-size:10pt;
-    -webkit-margin-before:2.33em;
-    -webkit-margin-start:0;
-    -webkit-margin-end:0;
-    padding-top:0;
-    text-transform:uppercase;
+    font-size:20pt;
     opacity:0.8;
   }
 }
 .section-headline {
-  text-transform:uppercase;
-  font-weight:500;
-  letter-spacing:3px;
-  font-size:10pt;
-  opacity:0.8;
-  margin-left:20px;
-  margin-top:40px;
-  margin-bottom:20px;
-  color:#3f3d3c;
+  margin-left: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-top: 30px;
+  color: #3f3d3c;
 }
+
 .c {
   clear:both;
 }
@@ -223,9 +216,9 @@ p {
   font-size:10pt;
   line-height:17pt;
 }
-.m_box {
-  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-}
+/*.m_box {*/
+  /*box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);*/
+/*}*/
 .fa, .material-icons {
   display:inline-block;
   font-style:normal;
@@ -260,6 +253,7 @@ h4 {
   float:right;
   display:flex;
   flex-direction:column;
+
   .block {
     width:90%;
     position:relative;
@@ -268,7 +262,7 @@ h4 {
     margin-top:5px;
     margin-bottom:5px;
     display:inline-block;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     .headline {
       font-weight:300;
       display:block;
@@ -343,6 +337,7 @@ h4 {
   background-color:#16151c;
   overflow:hidden;
   display:block;
+
   .section-headline {
     color:rgba(255,255,255,0.54);
   }
