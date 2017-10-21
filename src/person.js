@@ -12,11 +12,11 @@ export const PERSON = {
     location: 'Bern'
   },
   experience: [{
-      company: 'Schweizerische Mobiliar Versicherungsgesellschaft, Bern',
-      position: 'Software Engineer',
-      timeperiod: 'seit November 2015',
-      description: 'Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.'
-    },
+    company: 'Schweizerische Mobiliar Versicherungsgesellschaft, Bern',
+    position: 'Software Engineer',
+    timeperiod: 'seit November 2015',
+    description: 'Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.'
+  },
     {
       company: 'Höhere Fachschule für Technik Mitteland, Biel',
       position: 'Technischer Mitarbeiter/ Softwareentwickler',
@@ -38,10 +38,10 @@ export const PERSON = {
 
   ],
   education: [{
-      degree: 'Master of Advanced Studies in Information Technology',
-      timeperiod: '2017 – 2019',
-      description: 'CAS HTML5/Javascript, CAS JEE, Berner Fachhochschule BFH'
-    },
+    degree: 'Master of Advanced Studies in Information Technology',
+    timeperiod: '2017 – 2019',
+    description: 'CAS HTML5/Javascript, CAS JEE, Berner Fachhochschule BFH'
+  },
     {
       degree: 'dipl. Techniker HF',
       timeperiod: '2012 - 2014',
@@ -50,38 +50,44 @@ export const PERSON = {
   ],
   projects: [{
     company: 'Die Mobiliar',
-    position: 'Software Entwickler',
+    position: 'Neue Schadenplattform',
     timeperiod: 'seit November 2015',
     description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
+  }, {
+      company: 'Z&S GmbH',
+      position: 'Hardware on demand',
+      timeperiod: 'seit November 2015',
+      description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
   }
+
   ],
   infos: [
     {
-    title: 'Geburtsdatum',
-    description: '24.09.1991',
+      title: 'Geburtsdatum:',
+      description: '24.09.1991',
     },
     {
-      title: 'Nationalität',
+      title: 'Nationalität:',
       description: 'Schweiz',
     },
     {
-      title: 'Zivilstand',
+      title: 'Zivilstand:',
       description: 'Ledig',
     }
 
   ],
-  activities:[
+  activities: [
     {
       title: 'Meetup',
-      description: ''
+      description: 'Teilnahme an diversen Meetups und Co-Organisator Chatbots Meetup Switzerland'
     },
     {
       title: 'Hackathon',
-      description: ''
+      description: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'
     },
     {
       title: 'Zertifikat',
-      description: ''
+      description: 'Oracle Certified Professional Java SE 8 Programmer'
     }
   ],
   // skill level goes 0 to 100
@@ -125,11 +131,11 @@ export const PERSON = {
   ],
   languages: [
     {
-      name: 'Deutsch',
+      name: 'Deutsch:',
       level: 'Muttersprache'
     },
     {
-      name: 'Englisch',
+      name: 'Englisch:',
       level: 'Gute Kenntnisse'
     }
 

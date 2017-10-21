@@ -33,6 +33,7 @@
     </div>
 
     <div class="rightCol">
+      <div class="col-content">
       <div class="section-headline">{{ lang.headings.projects }}</div>
       <div class="block" v-for="experience in person.projects">
         <div class="block-helper"></div>
@@ -53,10 +54,19 @@
          {{act.description}}
         </p>
       </div>
+      </div>
+      <footer class="footer">
+          <p>
+            Dieses CV wurde in HTML5/Javascript mit Vue.js erstellt.<br>
+            Repository: <a href="https://github.com/AdrianKrebs/resume">https://github.com/AdrianKrebs/resume</a>
+          </p>
+      </footer>
     </div>
 
     <div style="clear:both;"></div>
+
   </div>
+
 </template>
 
 <script>
@@ -74,9 +84,22 @@
     margin-left: 20px;
   }
 
+  .right {
+    padding-bottom: 15px;
+  }
+
+
+  .col-content{
+    margin-bottom: auto;
+  }
+
   li, ul {
     list-style-type: disc;
     list-style-position: inside;
+  }
+
+  a {
+    color: darkblue;
   }
 
 </style>

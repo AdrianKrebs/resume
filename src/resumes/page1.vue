@@ -9,17 +9,6 @@
     </div>
     <div class="item">
       <div class="icon">
-        <i class="material-icons">account_circle</i>
-      </div>
-      <div class="text">
-        <ul>
-          <li> Born {{person.birth.year}} in {{person.birth.location}}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="icon">
         <i class="material-icons">location_city</i>
       </div>
       <div class="text">

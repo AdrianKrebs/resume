@@ -38,7 +38,7 @@ export default Vue.component('resume', {
 .resume {
   font-family: 'Roboto' !important;
   background: #cccccc;
-  font-size: 1.425rem;
+
 }
 
 a {
@@ -100,6 +100,7 @@ a {
 }
 
 .section-headline {
+  font-size: 1.2em;
   font-weight: 500;
   opacity: 0.8;
   margin-left: 20px;
