@@ -10,47 +10,15 @@
       <router-link v-bind:to="'/resume/page1'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-material-dark.png" />
-          <span>material-dark</span>
+          <span>first page</span>
         </div>
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/left-right'">
+      <router-link v-bind:to="'/resume/page2'">
         <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right.png" />
-          <span>left-right</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/oblique'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-oblique.png" />
-          <span>oblique</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar.png" />
-          <span>side-bar</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/purple'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-purple.png" />
-          <span>purple</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar-rtl'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar-rtl.png" />
-          <span>side-bar-rtl</span>
+          <img src="../assets/preview/resume-material-dark.png" />
+          <span>second page</span>
         </div>
       </router-link>
     </div>

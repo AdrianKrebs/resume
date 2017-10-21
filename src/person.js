@@ -49,11 +49,26 @@ export const PERSON = {
     }
   ],
   projects: [{
-    company: 'Testfirma',
-    position: 'Testfirma',
+    company: 'Die Mobiliar',
+    position: 'Software Entwickler',
     timeperiod: 'seit November 2015',
     description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
   }
+  ],
+  infos: [
+    {
+    title: 'Geburtsdatum',
+    description: '24.09.1991',
+    },
+    {
+      title: 'Nationalität',
+      description: 'Schweiz',
+    },
+    {
+      title: 'Zivilstand',
+      description: 'Ledig',
+    }
+
   ],
   activities:[
     {
