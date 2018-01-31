@@ -15,13 +15,13 @@ export const PERSON = {
     company: 'Schweizerische Mobiliar Versicherungsgesellschaft, Bern',
     position: 'Software Engineer',
     timeperiod: 'seit November 2015',
-    description: 'Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.'
+    description: 'Entwicklung und Entwurf von modernen Front- und Backend Applikationen.'
   },
     {
       company: 'Höhere Fachschule für Technik Mitteland, Biel',
       position: 'Technischer Mitarbeiter/ Softwareentwickler',
       timeperiod: 'Oktober 2014 - Oktober 2015',
-      description: 'Fulfillment of extremely important tasks.'
+      description: 'Technische Verantwortung Projekt "Hardware on Demand". Konzipierung und Umsetzung einer Desktop Applikation'
     },
     {
       company: 'Styner+Bienz FormTech AG',
@@ -40,24 +40,29 @@ export const PERSON = {
   education: [{
     degree: 'Master of Advanced Studies in Information Technology',
     timeperiod: '2017 – 2019',
-    description: 'CAS HTML5/Javascript, CAS JEE, Berner Fachhochschule BFH'
+    description: 'CAS Applikationsentwicklung mit JavaScript & HTML5, CAS Enterprise Application Development Java EE',
+    school: 'Berner Fachhochschule BFH'
   },
     {
       degree: 'dipl. Techniker HF',
       timeperiod: '2012 - 2014',
-      description: 'Systemtechnik Vertiefungsrichtung Automation/ICT, Höhere Fachschule für Technik Mitteland, Biel'
+      description: 'Systemtechnik Vertiefungsrichtung Automation/ICT',
+      school: 'Höhere Fachschule für Technik Mitteland, Biel'
     }
   ],
   projects: [{
     company: 'Die Mobiliar',
-    position: 'Neue Schadenplattform',
+    position: 'Neue Schadenplattform NSP',
     timeperiod: 'seit November 2015',
-    description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
+    description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.',
+      'Java EE Backend mit Oracle SQL Datenbank','Rich Web Client auf Basis von JavaScript und Angular', 'REST Architektur Team']
   }, {
       company: 'Z&S GmbH',
       position: 'Hardware on demand',
-      timeperiod: 'seit November 2015',
-      description: ['JEE, Javascript', 'SaFe, Scrum', 'REST Architektur Team']
+      timeperiod: 'Oktober 2014 - Oktober 2015',
+      description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
+        'Neuentwicklugn eines Schulungsportals als Desktop-Applikation in C#, WPF',
+      'Weiterentwicklung der Administrations-Software in Java EE']
   }
 
   ],
@@ -78,15 +83,15 @@ export const PERSON = {
   ],
   activities: [
     {
-      title: 'Meetup',
+      title: 'Meetups',
       description: 'Teilnahme an diversen Meetups und Co-Organisator Chatbots Meetup Switzerland'
     },
     {
-      title: 'Hackathon',
+      title: 'Hackathons',
       description: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'
     },
     {
-      title: 'Zertifikat',
+      title: 'Zertifikate',
       description: 'Oracle Certified Professional Java SE 8 Programmer'
     }
   ],
@@ -94,39 +99,23 @@ export const PERSON = {
   skills: [
     {
       name: 'Java/ Java EE',
-      level: '99'
+      level: '90'
     },
     {
-      name: 'JavaScript',
-      level: '97'
+      name: 'SQL',
+      level: '85'
     },
     {
-      name: 'HTML5',
-      level: '99'
+      name: 'HTML5/ JavaScript',
+      level: '85'
     },
     {
-      name: 'CSS3',
-      level: '95'
-    },
-    {
-      name: 'Node.js',
-      level: '93'
-    },
-    {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
+      name: 'CSS',
       level: '80'
     },
     {
-      name: 'ES.Next',
+      name: 'Angular',
       level: '70'
-    },
-    {
-      name: 'Docker',
-      level: '99'
     }
   ],
   languages: [
@@ -147,7 +136,7 @@ export const PERSON = {
     street: 'Freiburghaus 288',
     city: '3176, Neuenegg',
     website: 'adriankrebs.ch',
-    github: 'Adriankrebs'
+    github: 'AdrianKrebs'
   },
   lang: 'de' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl
 };

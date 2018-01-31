@@ -39,11 +39,13 @@
         <div class="block-helper"></div>
         <div class="headline"><h3>{{experience.position}} - {{experience.company}}</h3>
           <div class="subheadline">{{experience.timeperiod}}</div>
+          <div class="points">
           <ul>
           <div v-for="point in experience.description">
           <li>{{point}}</li>
           </div>
           </ul>
+        </div>
         </div>
       </div>
       <div class="section-headline">{{ lang.headings.activity }}</div>

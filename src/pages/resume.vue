@@ -194,7 +194,6 @@ h4 {
     }
     .subheadline {
       color: rgba(0, 0, 0, 0.541176);
-      display: block;
       font-size: 14px;
       font-weight: 300;
     }
@@ -202,7 +201,7 @@ h4 {
       font-size: 14px;
       color: rgba(0, 0, 0, 0.870588);
       margin-bottom: 0;
-      padding-top: 20px;
+      padding-top: 10px;
     }
     .icon {
       width: 16%;
@@ -359,7 +358,7 @@ h4 {
 }
 
 #myselfpic {
-  background-image: url('../assets/person.jpg');
+  background-image: url('../assets/person.png');
   color: black;
 }
 
@@ -377,6 +376,17 @@ h4 {
   page-break-after: auto;
   overflow: hidden;
 }
+  .points {
+    ul li {
+      list-style-position: outside;
 
+      /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+      margin-left: 1em;
+    }
+
+  }
 
 </style>
