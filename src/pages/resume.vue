@@ -376,6 +376,16 @@ h4 {
   page-break-after: auto;
   overflow: hidden;
 }
+
+
+.desc {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 17pt;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.870588);
+  margin-bottom: 0;
+}
   .points {
     ul li {
       list-style-position: outside;

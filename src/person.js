@@ -18,8 +18,8 @@ export const PERSON = {
     description: 'Entwicklung und Entwurf von modernen Front- und Backend Applikationen.'
   },
     {
-      company: 'Höhere Fachschule für Technik Mitteland, Biel',
-      position: 'Technischer Mitarbeiter/ Softwareentwickler',
+      company: 'Z&S Gmbh, Biel',
+      position: 'Softwareentwickler',
       timeperiod: 'Oktober 2014 - Oktober 2015',
       description: 'Technische Verantwortung Projekt "Hardware on Demand". Konzipierung und Umsetzung einer Desktop Applikation'
     },
@@ -40,13 +40,13 @@ export const PERSON = {
   education: [{
     degree: 'Master of Advanced Studies in Information Technology',
     timeperiod: '2017 – 2019',
-    description: 'CAS Applikationsentwicklung mit JavaScript & HTML5, CAS Enterprise Application Development Java EE',
+    description: ['CAS Applikationsentwicklung mit JavaScript & HTML5',' CAS Enterprise Application Development Java EE'],
     school: 'Berner Fachhochschule BFH'
   },
     {
       degree: 'dipl. Techniker HF',
       timeperiod: '2012 - 2014',
-      description: 'Systemtechnik Vertiefungsrichtung Automation/ICT',
+      description: ['Systemtechnik Vertiefungsrichtung Automation/ICT'],
       school: 'Höhere Fachschule für Technik Mitteland, Biel'
     }
   ],

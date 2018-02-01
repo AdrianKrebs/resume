@@ -102,10 +102,12 @@
       <div class="block-helper"></div>
       <div class="headline"><h3>{{education.degree}}</h3></div>
       <div class="subheadline">{{education.timeperiod}}</div>
-      <p class="info">
-        {{education.description}}
+      <div class="desc" v-for="desc in education.description">
+        {{desc}}
+      </div>
+      <div>
         {{education.school}}
-      </p>
+      </div>
     </div>
   </div>
 
