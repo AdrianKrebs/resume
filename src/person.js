@@ -21,7 +21,7 @@ export const PERSON = {
       company: 'Z&S Gmbh, Biel',
       position: 'Softwareentwickler',
       timeperiod: 'Oktober 2014 - Oktober 2015',
-      description: 'Technische Verantwortung Projekt "Hardware on Demand". Konzipierung und Umsetzung einer Desktop Applikation'
+      description: 'Technische Verantwortung sowie Konzipierung und Umsetzung des Projekts "Hardware on Demand".'
     },
     {
       company: 'Styner+Bienz FormTech AG',
@@ -40,13 +40,13 @@ export const PERSON = {
   education: [{
     degree: 'Master of Advanced Studies in Information Technology',
     timeperiod: '2017 – 2019',
-    description: ['CAS Applikationsentwicklung mit JavaScript & HTML5',' CAS Enterprise Application Development Java EE'],
-    school: 'Berner Fachhochschule BFH'
+    description: ['CAS Applikationsentwicklung mit JavaScript & HTML5', ' CAS Enterprise Application Development Java EE'],
+    school: 'Berner Fachhochschule BFH, Bern'
   },
     {
       degree: 'dipl. Techniker HF',
       timeperiod: '2012 - 2014',
-      description: ['Systemtechnik Vertiefungsrichtung Automation/ICT'],
+      description: ['Systemtechnik, Vertiefungsrichtung Automation/ICT'],
       school: 'Höhere Fachschule für Technik Mitteland, Biel'
     }
   ],
@@ -54,14 +54,14 @@ export const PERSON = {
     company: 'Die Mobiliar',
     position: 'Neue Schadenplattform NSP',
     timeperiod: 'seit November 2015',
-    description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme.',
-      'Java EE Backend mit Oracle SQL Datenbank','Rich Web Client auf Basis von JavaScript und Angular', 'REST Architektur Team']
+    description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme','Mitarbeit in Community of Practice zum Thema Architektur',
+      'Java EE Backend mit Oracle SQL Datenbank', 'Rich Web Client auf Basis von JavaScript und Angular', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
   }, {
-      company: 'Z&S GmbH',
-      position: 'Hardware on demand',
-      timeperiod: 'Oktober 2014 - Oktober 2015',
-      description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
-        'Neuentwicklugn eines Schulungsportals als Desktop-Applikation in C#, WPF',
+    company: 'Z&S GmbH',
+    position: 'Hardware on demand',
+    timeperiod: 'Oktober 2014 - Oktober 2015',
+    description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
+      'Neuentwicklung eines Schulungsportals als Desktop-Applikation in C#, WPF',
       'Weiterentwicklung der Administrations-Software in Java EE']
   }
 
@@ -84,16 +84,23 @@ export const PERSON = {
   activities: [
     {
       title: 'Meetups',
-      description: 'Teilnahme an diversen Meetups und Co-Organisator Chatbots Meetup Switzerland'
-    },
-    {
-      title: 'Hackathons',
-      description: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'
+      description: [{text: 'Teilnahme an diversen Meetups und Co-Organisator Chatbots Meetup Switzerland'}]
     },
     {
       title: 'Zertifikate',
-      description: 'Oracle Certified Professional Java SE 8 Programmer'
-    }
+      description: [{text: 'Oracle Certified Professional Java SE 8 Programmer (OCA & OCP)'}]
+    },
+    {
+      title: 'Private Projekte',
+      description: [{
+        link: 'thehoodguide.com',
+        text: ' - Crowdsourced Event Map'
+      }, {link: 'chat.adriankrebs.ch', text: ' - Chatbot Showcase'}]
+    },
+    {
+      title: 'Hackathons',
+      description: [{text: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'}]
+    },
   ],
   // skill level goes 0 to 100
   skills: [
@@ -111,7 +118,7 @@ export const PERSON = {
     },
     {
       name: 'CSS',
-      level: '80'
+      level: '70'
     },
     {
       name: 'Angular',

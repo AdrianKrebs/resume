@@ -1,11 +1,12 @@
 <template>
   <div class="resume">
     <div class="leftCol m_box">
+      <div class="item">
       <div class="shadow"></div>
       <div class="section-headline">
         {{ lang.headings.languages }}
       </div>
-      <div class="langauges" v-for="lang in person.languages">
+      <div class="infos" v-for="lang in person.languages">
         <div class="right">
           <span>{{lang.name}}&nbsp;</span>
           <div>
@@ -13,7 +14,7 @@
           </div>
         </div>
       </div>
-
+      </div>
       <div class="item last">
         <div class="section-headline">
           {{ lang.headings.personal }}
@@ -52,9 +53,11 @@
       <div class="block" v-for="act in person.activities">
         <div class="block-helper"></div>
         <div class="headline"><h3>{{act.title}}</h3></div>
-        <p class="info">
-         {{act.description}}
-        </p>
+        <div class="desc">
+          <div v-for="desc in act.description">
+          <a target="_blank" v-if="desc.link" v-bind:href="'//'+desc.link">{{desc.link}}</a>{{desc.text}}
+          </div>
+        </div>
       </div>
       </div>
       <footer class="footer">
