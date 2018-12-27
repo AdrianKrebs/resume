@@ -32,8 +32,14 @@ export const PERSON = {
     },
     {
       company: 'Styner+Bienz FormTech AG',
+      position: 'Polymechaniker',
+      timeperiod: 'April  2012 - Oktober  2012',
+      description: ''
+    },
+    {
+      company: 'Styner+Bienz FormTech AG',
       position: 'Polymechaniker Lehrling',
-      timeperiod: '2007 - 2012',
+      timeperiod: '2007 - 2011',
       description: ''
     }
 
@@ -45,7 +51,7 @@ export const PERSON = {
     school: 'Berner Fachhochschule BFH, Bern'
   },
     {
-      degree: 'dipl. Techniker HF',
+      degree: 'Practical Bachelor HF',
       timeperiod: '2012 - 2014',
       description: ['Systemtechnik, Vertiefungsrichtung Automation/ICT'],
       school: 'Höhere Fachschule für Technik Mitteland, Biel'
@@ -55,39 +61,38 @@ export const PERSON = {
     {
       company: 'Migros Bank',
       position: 'Online Leasing',
-      timeperiod: 'seit Juni 2018',
-      description: ['Leasingrechner für Firmenkunden mit automatisierter Kreditprüfung','E2E Testing eingeführt, ' +
-       ' Developers Meeting ins Leben gerufen',
-        'Spring Boot mit Oracle SQL Datenbank', 'Web Client mit Vue.js']
+      timeperiod: 'since June 2018',
+      description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme','Mitarbeit in Community of Practice zum Thema Architektur',
+        'Java EE Backend mit Oracle SQL Datenbank', 'Rich Web Client auf Basis von JavaScript und Angular', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
     },
-  {
-    company: 'Die Mobiliar',
-    position: 'Neue Schadenplattform NSP',
-    timeperiod: 'November 2015 - Mai 2018',
-    description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme','Mitarbeit in Community of Practice zum Thema Architektur',
-      'Java EE Backend mit Oracle SQL Datenbank', 'Rich Web Client auf Basis von JavaScript und Angular', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
-  }, {
-    company: 'Z&S GmbH',
-    position: 'Hardware on demand',
-    timeperiod: 'Oktober 2014 - Oktober 2015',
-    description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
-      'Neuentwicklung eines Schulungsportals als Desktop-Applikation in C#, WPF',
-      'Weiterentwicklung der Administrations-Software in Java EE']
-  }
+    {
+      company: 'Die Mobiliar',
+      position: 'Mobiliar claim system',
+      timeperiod: 'November 2015 - Mai 2018',
+      description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme','Mitarbeit in Community of Practice zum Thema Architektur',
+        'Java EE Backend mit Oracle SQL Datenbank', 'Rich Web Client auf Basis von JavaScript und Angular', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
+    }, {
+      company: 'Z&S GmbH',
+      position: 'Hardware on demand',
+      timeperiod: 'October 2014 - Otober 2015',
+      description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
+        'Neuentwicklung eines Schulungsportals als Desktop-Applikation in C#, WPF',
+        'Weiterentwicklung der Administrations-Software in Java EE']
+    }
 
   ],
   infos: [
     {
-      title: 'Geburtsdatum:',
+      title: 'Date of birth:',
       description: '24.09.1991',
     },
     {
-      title: 'Nationalität:',
-      description: 'Schweiz',
+      title: 'Nationality:',
+      description: 'Switzerland',
     },
     {
-      title: 'Zivilstand:',
-      description: 'Ledig',
+      title: 'Civil status:',
+      description: 'Single',
     }
 
   ],
@@ -103,13 +108,13 @@ export const PERSON = {
     {
       title: 'Private Projekte',
       description: [{
-        link: 'thehoodguide.com',
+        link: 'https://www.producthunt.com/posts/hood-guide',
         text: ' - Crowdsourced Event Map'
-      }, {link: 'chat.adriankrebs.ch', text: ' - Chatbot Showcase'}]
+      }, {link: 'adriankrebs.ch', text: ' - Chatbot Showcase'}]
     },
     {
       title: 'Hackathons',
-      description: [{text: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'}]
+      description: [{text: 'Participation in several hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'}]
     },
   ],
   // skill level goes 0 to 100
@@ -137,12 +142,12 @@ export const PERSON = {
   ],
   languages: [
     {
-      name: 'Deutsch:',
-      level: 'Muttersprache'
+      name: 'German:',
+      level: 'Native language'
     },
     {
-      name: 'Englisch:',
-      level: 'Gute Kenntnisse'
+      name: 'English:',
+      level: 'Proficient'
     }
 
   ],
@@ -150,10 +155,10 @@ export const PERSON = {
   contact: {
     email: 'info@adriankrebs.ch',
     phone: '079 308 25 46',
-    street: 'Birchstrasse 424',
-    city: '8052, Zürich',
+    street: 'Freiburghaus 288',
+    city: '3176, Neuenegg',
     website: 'adriankrebs.ch',
     github: 'AdrianKrebs'
   },
-  lang: 'de' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl
+  lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl
 };
