@@ -56,24 +56,24 @@ export const PERSON = {
       company: 'Migros Bank',
       position: 'Online Leasing',
       timeperiod: 'seit Juni 2018',
-      description: ['Leasingrechner für Firmenkunden mit automatisierter Kreditprüfung','E2E Testing eingeführt, ' +
-       ' Developers Meeting ins Leben gerufen',
-        'Spring Boot mit Oracle SQL Datenbank', 'Web Client mit Vue.js']
+      description: ['Leasingrechner für Firmenkunden mit automatisierter Kreditprüfung', 'E2E Testing eingeführt, ' +
+      ' Developers Meeting ins Leben gerufen',
+        'Spring Boot mit Oracle SQL Datenbank, Web Client mit Vue.js']
     },
-  {
-    company: 'Die Mobiliar',
-    position: 'Neue Schadenplattform NSP',
-    timeperiod: 'November 2015 - Mai 2018',
-    description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme','Mitarbeit in Community of Practice zum Thema Architektur',
-      'Java EE Backend mit Oracle SQL Datenbank', 'Rich Web Client auf Basis von JavaScript und Angular', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
-  }, {
-    company: 'Z&S GmbH',
-    position: 'Hardware on demand',
-    timeperiod: 'Oktober 2014 - Oktober 2015',
-    description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
-      'Neuentwicklung eines Schulungsportals als Desktop-Applikation in C#, WPF',
-      'Weiterentwicklung der Administrations-Software in Java EE']
-  }
+    {
+      company: 'Die Mobiliar',
+      position: 'Neue Schadenplattform NSP',
+      timeperiod: 'November 2015 - Mai 2018',
+      description: ['Entwicklung der neuen Schadenplattform zur Ablösung der alten Host-Systeme', 'Mitarbeit in Community of Practice zum Thema Architektur',
+        'Java EE Backend mit Oracle SQL Datenbank, Angular Frontend', 'moderne Microservice Architektur in agilem Umfeld (Scrum / SaFe)']
+    }, {
+      company: 'Z&S GmbH',
+      position: 'Hardware on demand',
+      timeperiod: 'Oktober 2014 - Oktober 2015',
+      description: ['Dynamisches, verwaltetes Zu- und Wegschalten von Industriesteuerungen zu Cloud-Remotelaboren',
+        'Neuentwicklung eines Schulungsportals als Desktop-Applikation in C#, WPF',
+        'Weiterentwicklung der Administrations-Software in Java EE']
+    }
 
   ],
   infos: [
@@ -93,8 +93,12 @@ export const PERSON = {
   ],
   activities: [
     {
-      title: 'Meetups',
-      description: [{text: 'Teilnahme an diversen Meetups und Co-Organisator Chatbots Meetup Switzerland'}]
+      title: 'Meetups & Hackathons',
+      description: [{
+        text: 'Teilnahme an diversen Meetups (VueZH, Chatbots Switzerland) und Hackathons (HackZurich, SIX Hackathon,' +
+          ' Mobiliar' +
+          ' Challenge Days)'
+      }]
     },
     {
       title: 'Zertifikate',
@@ -103,13 +107,12 @@ export const PERSON = {
     {
       title: 'Private Projekte',
       description: [{
-        link: 'thehoodguide.com',
-        text: ' - Crowdsourced Event Map'
-      }, {link: 'chat.adriankrebs.ch', text: ' - Chatbot Showcase'}]
-    },
-    {
-      title: 'Hackathons',
-      description: [{text: 'Teilnahme an diversen Hackathons (HackZurich, SIX Hackathon, Mobiliar Challenge Days)'}]
+        link: 'selfretrospective.com',
+        text: ' - Persönilche Retrospektive'
+      }, {
+        link: 'funkloch.co',
+        text: ' - Portal für Digital Detox'
+      }]
     },
   ],
   // skill level goes 0 to 100
