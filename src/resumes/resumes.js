@@ -1,6 +1,7 @@
 // If you create a new resume, import it here:
 import './page1.vue';
 import './page2.vue';
+import './page3.vue';
 
 import { PERSON } from '../person';
 import { terms } from '../terms';
