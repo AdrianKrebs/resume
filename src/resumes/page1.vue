@@ -19,17 +19,6 @@
         </div>
       </div>
 
-      <a :href="'tel:'+person.contact.phone">
-        <div class="item">
-          <div class="icon">
-            <i class="material-icons">phone</i>
-          </div>
-          <div class="text">
-            {{person.contact.phone}}
-          </div>
-        </div>
-      </a>
-
       <a :href="'mailto:'+person.contact.email">
         <div class="item">
           <div class="icon">
@@ -59,7 +48,7 @@
             <i class="material-icons">language</i>
           </div>
           <div class="text">
-            <span>{{person.contact.website}}</span>
+            <a :href="person.contact.website">{{person.contact.website}}</a>
           </div>
         </div>
       </a>
@@ -71,10 +60,6 @@
         <div class="skill" v-for="skill in person.skills" :key="skill.name">
           <div class="right">
             <span>{{skill.name}}&nbsp;</span>
-            <div class="progress">
-              <div class="determinate" :style="'width: '+skill.level+'%;'">
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -47,7 +47,7 @@ export const PERSON = {
     {
       degree: 'dipl. Techniker HF',
       timeperiod: '2012 - 2014',
-      description: ['Systemtechnik, Vertiefungsrichtung Automation/ICT'],
+      description: ['Vertiefungsrichtung technische Informatik'],
       school: 'Höhere Fachschule für Technik Mitteland, Biel'
     }
   ],
@@ -56,8 +56,8 @@ export const PERSON = {
       company: 'Migros Bank',
       position: 'Online Leasing',
       timeperiod: 'seit Juni 2018',
-      description: ['Leasingrechner für Firmenkunden mit automatisierter Kreditprüfung', 'E2E Testing eingeführt, ' +
-      ' Developers Meeting ins Leben gerufen',
+      description: ['Leasingrechner mit automatisierter Kreditprüfung',
+        'diverse Architekturaufgaben',
         'Spring Boot mit Oracle SQL Datenbank, Web Client mit Vue.js']
     },
     {
@@ -95,9 +95,7 @@ export const PERSON = {
     {
       title: 'Meetups & Hackathons',
       description: [{
-        text: 'Teilnahme an diversen Meetups (VueZH, Chatbots Switzerland) und Hackathons (HackZurich, SIX Hackathon,' +
-          ' Mobiliar' +
-          ' Challenge Days)'
+        text: 'Teilnahme an diversen Meetups und Hackathons'
       }]
     },
     {
@@ -118,24 +116,19 @@ export const PERSON = {
   // skill level goes 0 to 100
   skills: [
     {
-      name: 'Java/ Java EE',
-      level: '90'
+      name: 'Java/ Java EE/ Spring Boot',
     },
     {
       name: 'SQL',
-      level: '85'
-    },
-    {
-      name: 'HTML5/ JavaScript',
-      level: '85'
-    },
-    {
-      name: 'CSS',
-      level: '70'
     },
     {
       name: 'Angular',
-      level: '70'
+    },
+    {
+      name: 'Vue.js',
+    },
+    {
+      name: 'Openshift, Docker, Kubernetes, ELK Stack'
     }
   ],
   languages: [
@@ -152,10 +145,8 @@ export const PERSON = {
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
     email: 'info@adriankrebs.ch',
-    phone: '079 308 25 46',
-    street: 'Birchstrasse 424',
     city: '8052, Zürich',
-    website: 'adriankrebs.ch',
+    website: 'https://adriankrebs.ch',
     github: 'AdrianKrebs'
   },
   lang: 'de' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu, pl
