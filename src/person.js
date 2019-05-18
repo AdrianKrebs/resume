@@ -122,7 +122,7 @@ export const PERSON = {
       name: 'SQL',
     },
     {
-      name: 'Angular',
+      name: 'Angular, Ionic',
     },
     {
       name: 'Vue.js',
