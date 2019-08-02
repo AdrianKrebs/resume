@@ -128,7 +128,7 @@ export const PERSON = {
       name: 'Vue.js',
     },
     {
-      name: 'Openshift, Docker, Kubernetes, ELK Stack'
+      name: 'Openshift, Docker, Kubernetes'
     }
   ],
   languages: [
