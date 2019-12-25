@@ -14,7 +14,7 @@ export const PERSON = {
   experience: [
     {
       company: 'Panter AG, Zürich',
-      position: 'Software Engineer',
+      position: 'Senior Software Engineer',
       timeperiod: 'seit Juni 2018',
       description: 'Entwicklung und Entwurf von modernen Front- und Backend Applikationen.'
     },
@@ -53,9 +53,16 @@ export const PERSON = {
   ],
   projects: [
     {
+      company: 'Bank Vontobel',
+      position: 'Volt',
+      timeperiod: 'seit Februar 2019',
+      description: ['Robo Advisor Mobile App',
+        'Ionic 4 Hybrid-App mit Spring Boot Backend auf Openshift']
+    },
+    {
       company: 'Migros Bank',
       position: 'Online Leasing',
-      timeperiod: 'seit Juni 2018',
+      timeperiod: 'Juni 2018 - Februar 2019',
       description: ['Leasingrechner mit automatisierter Kreditprüfung',
         'diverse Architekturaufgaben',
         'Spring Boot mit Oracle SQL Datenbank, Web Client mit Vue.js']
@@ -101,17 +108,7 @@ export const PERSON = {
     {
       title: 'Zertifikate',
       description: [{text: 'Oracle Certified Professional Java SE 8 Programmer (OCA & OCP)'}]
-    },
-    {
-      title: 'Private Projekte',
-      description: [{
-        link: 'selfretrospective.com',
-        text: ' - Persönilche Retrospektive'
-      }, {
-        link: 'funkloch.co',
-        text: ' - Portal für Digital Detox'
-      }]
-    },
+    }
   ],
   // skill level goes 0 to 100
   skills: [
